@@ -5,4 +5,4 @@
 
 
 ## Git
-* [git reset & git revert 代码回退](http://www.baidu.como)
+* [git reset & git revert 代码回退](/Git/git reset & git revert.md)
