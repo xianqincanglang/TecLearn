@@ -36,5 +36,4 @@ export function getCookieDic(){
   }
   return cookieDic;
 }
-
-git stash apply stash@{0}
+//
