@@ -28,11 +28,10 @@
 	git revert用一个新提交来消除一个历史提交所做的任何修改;
 
 	git revert和git reset区别:
-
 		* 1.已经push到远程，reset删除指定的commit以后，git push可能会导致冲突，git revert不会;
 
 		* 2.reset是在正常的commit历史中，删除了指定的commit，这时HEAD是向后移动，
 		 而revert是在正常的commit历史中再commit一次,只不过是反向提交,HEAD是一直向前的;
-		 
+
 		* 3.在日后现有分支和历史分支需要合并的时候，reset恢复部分的代码依然会出现在历史分支里，而revert方向提交的commit并不会出现在历史分支里.
 		 

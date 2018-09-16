@@ -5,4 +5,4 @@
 
 
 ## Git
-* [git reset & git revert 代码回退](https://github.com/xianqincanglang/TecLearn/blob/master/Git/git reset & git revert.md)
+* [git reset & git revert 代码回退](https://github.com/xianqincanglang/TecLearn/blob/master/Git/git%20reset%20%26%20git%20revert.md)
