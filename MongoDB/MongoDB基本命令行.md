@@ -1,5 +1,7 @@
 * 删除已有字段  
-`db.yourcollection.update({},{$unset:{"需要删除的字段":""}},false,true)`
+`db.表.update({"需要删除的字段":{"$exists":true}},{"$unset":{"需要删除的字段":""}},{multi:true})`  
+&emsp;$exists:判断存在该字段;  
+&emsp;multi:true，删除多行;
 
 * 本地连接远程数据库  
 `mongo --host <IP地址>:数据库端口号`
