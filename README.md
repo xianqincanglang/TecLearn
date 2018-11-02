@@ -1,14 +1,3 @@
 some note, every directory has it's index.
 
-
-* [JavaScript]()
-* [Ant Design]()
-* [NodeJS]()
-
-
-* [MongoDB]()
-* [PHP]()
-
-
-* [Git]()
-* [其他工具]()
+if you has issue,please send mail to 'm15993343056@163.com'

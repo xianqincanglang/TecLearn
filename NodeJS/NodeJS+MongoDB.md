@@ -16,6 +16,7 @@ MongoClient.connect(url, function(err, db) {
     });
 });
 ```
+    
     - 插入多条数据，使用`insertMany()`  
     ```
 ar MongoClient = require('mongodb').MongoClient;
@@ -37,8 +38,9 @@ MongoClient.connect(url, function(err, db) {
     });
 });
     ```
-* 删除数据
-    - 删除一条数据`deleteOne()`  
+
+* 删除数据  
+    - 删除一条数据`deleteOne()`    
     ```
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
@@ -54,7 +56,8 @@ MongoClient.connect(url, function(err, db) {
     });
 });
     ```
-    - 删除多条数据`deleteMany()`  
+
+    - 删除多条数据`deleteMany()`   
     ```
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
@@ -72,4 +75,3 @@ MongoClient.connect(url, function(err, db) {
 });
 
     ```
-* 
