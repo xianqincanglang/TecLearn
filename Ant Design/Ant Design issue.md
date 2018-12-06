@@ -8,3 +8,10 @@
     - 解决方法:对列添加key区分;
 ### Warning: Each child in an array or iterator should have a unique "key" prop.
 解决方法：给数组中的子组件添加`key`属性
+
+### 不要引入库的css文件  
+比如
+```
+import "antd/dist/antd.css"
+否则会导致有些页面走系统的css样式,会发现异常css属性定位到webpack中，非自己定义的;
+```

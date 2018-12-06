@@ -11,3 +11,17 @@
 * ImportError: No module named http_client   
 解决方案:`sudo pip install jira --ignore-installed`  
 
+* python报错UnicodeDecodeError:`'ascii' codec can't decode byte 0xe8 in position 0 `  
+![UnicodeDecodeError](./assets/python_UnicodeDecodeError.png)  
+解决方案:  
+```
+方案一:第二行设置: # -*- coding: utf-8 -*-
+
+方案二：
+    import sys
+    reload(sys)
+    sys.setdefaultencoding('UTF-8')
+
+方案三:
+    使用中文处unicode编码.eg:unicode('你好')
+```
