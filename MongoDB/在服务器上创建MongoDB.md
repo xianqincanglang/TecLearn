@@ -20,7 +20,7 @@ port = 27118  #
 
 * 启动mongod  
 终端执行：`mongod --config mongod.conf(上面创建的那个)`  
-success提示:child process started successfully, parent exiting.  
+![success提示]('./assets/MongoDB_server_start.png')
 
 
 
