@@ -17,8 +17,8 @@ git push origin master
 #switch branch
 git checkout gh-pages
 cp -R ../_book/ ../
-rm -r ../_book
-
+#rm -r ../_book
+exit;
 git add .
 git commit -m $(date "+%Y%m%d-%H%M%S")
 git push
