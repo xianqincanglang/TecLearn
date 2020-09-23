@@ -8,3 +8,6 @@
 * UI相关
     - [UI_触摸和手势](./iOS/UI_触摸和手势<Indexed>.md)
 
+### Git
+* [git如何忽略文件](./Git/git如何忽略文件<Indexed>.md)
+
