@@ -5,9 +5,6 @@ git stash
 git pull origin master
 git stash apply stash@{0}
 
-#run latest gitbook
-gitbook serve
-
 #cp _book到父目录
 cp -r ./_book ../
 

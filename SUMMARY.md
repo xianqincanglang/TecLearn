@@ -10,4 +10,6 @@
 
 ### Git
 * [git如何忽略文件](./Git/git如何忽略文件<Indexed>.md)
+* [git reset & git revert](./Git/git reset & git revert<Indexed>.md)
+* [本地项目git初始化并提交远程仓库](./Git/本地项目git初始化并提交远程仓库<Indexed>.md)
 
